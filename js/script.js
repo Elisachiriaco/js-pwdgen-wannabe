@@ -22,4 +22,7 @@ console.log(userSurname);
 let colour = prompt("Qual'è il tuo colore preferito?");
 console.log(colour);
 
-document.getElementById('password').innerHTML =  userName + userSurname + colour + 21;
+let somma = 10 + 11;
+console.log(somma);
+
+document.getElementById('password').innerHTML =  userName + userSurname + colour + somma;
